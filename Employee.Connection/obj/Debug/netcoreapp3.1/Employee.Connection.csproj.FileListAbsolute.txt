@@ -1,0 +1,9 @@
+D:\EmployeeCRUDOperation\Employee.Connection\bin\Debug\netcoreapp3.1\Employee.Connection.deps.json
+D:\EmployeeCRUDOperation\Employee.Connection\bin\Debug\netcoreapp3.1\Employee.Connection.dll
+D:\EmployeeCRUDOperation\Employee.Connection\bin\Debug\netcoreapp3.1\Employee.Connection.pdb
+D:\EmployeeCRUDOperation\Employee.Connection\obj\Debug\netcoreapp3.1\Employee.Connection.csproj.AssemblyReference.cache
+D:\EmployeeCRUDOperation\Employee.Connection\obj\Debug\netcoreapp3.1\Employee.Connection.AssemblyInfoInputs.cache
+D:\EmployeeCRUDOperation\Employee.Connection\obj\Debug\netcoreapp3.1\Employee.Connection.AssemblyInfo.cs
+D:\EmployeeCRUDOperation\Employee.Connection\obj\Debug\netcoreapp3.1\Employee.Connection.csproj.CoreCompileInputs.cache
+D:\EmployeeCRUDOperation\Employee.Connection\obj\Debug\netcoreapp3.1\Employee.Connection.dll
+D:\EmployeeCRUDOperation\Employee.Connection\obj\Debug\netcoreapp3.1\Employee.Connection.pdb

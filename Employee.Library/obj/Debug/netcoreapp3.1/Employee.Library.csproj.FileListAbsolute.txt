@@ -1,0 +1,12 @@
+D:\EmployeeCRUDOperation\Employee.Library\bin\Debug\netcoreapp3.1\Employee.Library.deps.json
+D:\EmployeeCRUDOperation\Employee.Library\bin\Debug\netcoreapp3.1\Employee.Library.dll
+D:\EmployeeCRUDOperation\Employee.Library\bin\Debug\netcoreapp3.1\Employee.Library.pdb
+D:\EmployeeCRUDOperation\Employee.Library\bin\Debug\netcoreapp3.1\Employee.Connection.dll
+D:\EmployeeCRUDOperation\Employee.Library\bin\Debug\netcoreapp3.1\Employee.Connection.pdb
+D:\EmployeeCRUDOperation\Employee.Library\obj\Debug\netcoreapp3.1\Employee.Library.csproj.AssemblyReference.cache
+D:\EmployeeCRUDOperation\Employee.Library\obj\Debug\netcoreapp3.1\Employee.Library.AssemblyInfoInputs.cache
+D:\EmployeeCRUDOperation\Employee.Library\obj\Debug\netcoreapp3.1\Employee.Library.AssemblyInfo.cs
+D:\EmployeeCRUDOperation\Employee.Library\obj\Debug\netcoreapp3.1\Employee.Library.csproj.CoreCompileInputs.cache
+D:\EmployeeCRUDOperation\Employee.Library\obj\Debug\netcoreapp3.1\Employee.Library.csproj.CopyComplete
+D:\EmployeeCRUDOperation\Employee.Library\obj\Debug\netcoreapp3.1\Employee.Library.dll
+D:\EmployeeCRUDOperation\Employee.Library\obj\Debug\netcoreapp3.1\Employee.Library.pdb

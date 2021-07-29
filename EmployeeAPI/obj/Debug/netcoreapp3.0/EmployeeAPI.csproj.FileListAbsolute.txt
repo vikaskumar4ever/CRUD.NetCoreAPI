@@ -1,0 +1,5 @@
+D:\EmployeeCRUDOperation\EmployeeAPI\obj\Debug\netcoreapp3.0\EmployeeAPI.csproj.AssemblyReference.cache
+D:\EmployeeCRUDOperation\EmployeeAPI\obj\Debug\netcoreapp3.0\EmployeeAPI.AssemblyInfoInputs.cache
+D:\EmployeeCRUDOperation\EmployeeAPI\obj\Debug\netcoreapp3.0\EmployeeAPI.AssemblyInfo.cs
+D:\EmployeeCRUDOperation\EmployeeAPI\obj\Debug\netcoreapp3.0\EmployeeAPI.csproj.CoreCompileInputs.cache
+D:\EmployeeCRUDOperation\EmployeeAPI\obj\Debug\netcoreapp3.0\EmployeeAPI.MvcApplicationPartsAssemblyInfo.cache

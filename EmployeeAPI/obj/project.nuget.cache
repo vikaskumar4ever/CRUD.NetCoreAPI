@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "6DrzbfvlAMuOC+ZrcqM+EwM/piRgVajvD7jNwHuGGWNkNcrR20oVA0hzabvng+DluNjFdblLJD7i3fvS5ck0SA==",
+  "success": false,
+  "projectFilePath": "D:\\EmployeeCRUDOperation\\EmployeeAPI\\EmployeeAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Celebal\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\Celebal\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Celebal\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Celebal\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Employee.Library is not compatible with netcoreapp3.0 (.NETCoreApp,Version=v3.0). Project Employee.Library supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "Employee.Library",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
+}
