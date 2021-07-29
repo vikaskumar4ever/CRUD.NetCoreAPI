@@ -1,0 +1,93 @@
+CREATE TABLE Employee
+(
+Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+EmpId UNIQUEIDENTIFIER NOT NULL,
+EmpName NVARCHAR(250),
+EmpDeptName NVARCHAR(250),
+EmpPhoneNo NVARCHAR(20)
+)
+
+--StoreProcedure
+
+--DeleteRecord
+CREATE PROC [dbo].[udp_Employee_del]
+	@Id int
+AS
+SET NOCOUNT ON
+
+DELETE FROM Employee
+ WHERE Id = @Id
+
+SET NOCOUNT OFF
+GO
+--GetAllRecord
+CREATE PROC [dbo].[udp_Employee_lst]
+AS
+SET NOCOUNT ON
+
+SELECT Id, 
+	EmpId, 
+	EmpName, 
+	EmpDeptName, 
+	EmpPhoneNo
+FROM Employee
+SET NOCOUNT OFF
+GO
+--GetById
+CREATE PROC [dbo].[udp_Employee_sel]
+	@Id UNIQUEIDENTIFIER
+AS
+SET NOCOUNT ON
+
+SELECT Id, 
+	EmpId, 
+	EmpName, 
+	EmpDeptName, 
+	EmpPhoneNo
+FROM Employee
+WHERE EmpId = @Id
+
+SET NOCOUNT OFF
+GO
+---InsertUpdate
+CREATE PROC [dbo].[udp_Employee_ups]
+
+	@Id int,
+	@EmpId uniqueidentifier,
+	@EmpName nvarchar(250),
+	@EmpDeptName nvarchar(250),
+	@EmpPhoneNo nvarchar(20)
+AS
+SET NOCOUNT ON
+IF @Id = 0 BEGIN
+	INSERT INTO Employee (
+		EmpId,
+		EmpName,
+		EmpDeptName,
+		EmpPhoneNo
+	)
+	VALUES (
+		@EmpId,
+		@EmpName,
+		@EmpDeptName,
+		@EmpPhoneNo
+		)
+	SELECT @EmpId As InsertedID
+END
+ELSE BEGIN
+	UPDATE Employee SET 
+
+		EmpId = @EmpId,
+		EmpName = @EmpName,
+		EmpDeptName = @EmpDeptName,
+		EmpPhoneNo = @EmpPhoneNo
+
+	WHERE EmpId = @EmpId
+
+ SELECT @Id
+
+END
+
+SET NOCOUNT OFF
+
+GO
